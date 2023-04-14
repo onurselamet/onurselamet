@@ -1,0 +1,21 @@
+onurselamet@lnb-oselamet:~/Documents$ cat ccccc.csv | tr a-z A-Z
+
+tr komutu comuttaki gibi yazılırsa küçük harf ile yazılanları büyük harf e cevirir (işlem yapılacak text, greb , komut, yapılıcak işlem)
+
+sort > alfabesik sıraya göre ayarlar
+
+sort -r (revers) tersten sıralar
+
+
+diff komutu kontrol edilicek dosyalar arasındaki uyuşmazlık olanları belirler,
+
+diff --side-by-side komutu bütün satırları karşılaştırır
+
+< > işaretleri ile olan satırları gösterir
+
+örnek 
+diff --side-by-side aaaaaaaaa.csv ccccc.csv 
+
+diff --side-by-side aaaaaaaaa.csv ccccc.csv | cat -n satır numaraları belirtir.""
+
+
